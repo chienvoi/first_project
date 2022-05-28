@@ -1,0 +1,16 @@
+- ghi 3 cot dau tien
+- ghi ngay dau tien cua thang
+- cot tiep theo = d1+1 (keo du so ngay trong thang)
+- format cells -> custom: type: dd
+- rows and columns roi bam phim 'i'
+- nhap cong thuc vao o trong duoi ngay dau tien cua thang:
+=AND(chon o ngaythang >= chon o ngaybatdau, chon o ngaythang <= chon o ngayketthuc)
+enter
+- them $ vao o cong thuc giu nguyen ngaythang, thay doi ngaybatdau va ngayketthuc:
+VD:
+=AND(D$1>=$B2,D$1<=$C2) , nhan OK
+- tu o cong thuc select het hang va cot trong cua bang de ap dung cong thuc
+* buoc do mau:
+- chon het hang va cot -> chon conditional formatting -> chon new rule -> chon dong 
+cuoi -> cop cong thuc moi co $ vao phan edit rule -> format chon mau, OK
+-> xoa tat ca gia tri true, false cua bang 
